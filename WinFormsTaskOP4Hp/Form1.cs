@@ -33,11 +33,11 @@ namespace WinFormsTaskOP4Hp
                 }
                 if (abc == 4)
                 {
-                    label3.Text = "Czy Poprawny Adres IP: " + "TAK" + AdresIPClass + abc;
+                    label3.Text = "Czy Poprawny Adres IP: " + "TAK";
                 }
                 if (abc != 4)
                 {
-                    label3.Text = "Czy Poprawny Adres IP: " + "NIE" + AdresIPClass + abc;
+                    label3.Text = "Czy Poprawny Adres IP: " + "NIE";
                 }
             }
             abc = 0;
