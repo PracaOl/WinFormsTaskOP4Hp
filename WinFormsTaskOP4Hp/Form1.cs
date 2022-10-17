@@ -27,7 +27,7 @@ namespace WinFormsTaskOP4Hp
             IPNumbersInt = Array.ConvertAll(IPNumbers, int.Parse);
             for (int i = 0; i < IPNumbersInt.Length; i++)
             {
-                if (IPNumbersInt[i] > 0 && 256 > IPNumbersInt[i])
+                if (IPNumbersInt[i] >= 0 && 255 >= IPNumbersInt[i])
                 {
                     abc++;
                 }
